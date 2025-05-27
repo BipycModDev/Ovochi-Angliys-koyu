@@ -3,4 +3,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #141414;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.menu {
+  display: flex;
+  gap: 20px;
 }
