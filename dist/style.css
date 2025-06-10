@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 * {
   font-family: "DM Sans", sans-serif;
+  margin: 0;
 }
 .konteiner {
   max-width: 1216px;
@@ -10,7 +11,7 @@
   background-color: #a1c389;
   padding: 132px 0 32px 0;
 }
-.header {
+header {
   height: 50px;
   display: flex;
   justify-content: space-between;
@@ -28,4 +29,16 @@ a {
 .menyu-logotyp {
   display: flex;
   gap: 307px;
+}
+.geroy-tilo {
+  display: flex;
+  justify-content: space-between;
+}
+.geroy-zagolovok {
+  font-size: 64px;
+  text-transform: uppercase;
+  color: white;
+}
+.geroy-zagolovok span {
+  color: #eaf7e5;
 }
